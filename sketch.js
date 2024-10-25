@@ -1,7 +1,7 @@
 let colors = [];
 
 function setup() {
-  createCanvas(1000, 300);
+  createCanvas(windowWidth, windowHeight);
   noLoop(); // Disegna una sola volta
   noStroke(); // No bordi
 
